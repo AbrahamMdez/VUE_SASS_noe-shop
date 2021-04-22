@@ -37,87 +37,94 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
     .main {
-       height: 65vh;
-       width: 100vw;
+        height: 75vh;
+        width: 100vw;
 
-       .main__h1 {
-           text-align: center;
-           font-size: 1rem;
-           padding: 1vh;
-       }
+        .main__h1 {
+            text-align: center;
+            font-size: 1rem;
+            padding: 1vh;
+        }
 
-       .main__section {
-           display: grid;
-           height: 50vh;
-           width: 75vw;
-           margin: auto;
-           grid-template-columns: repeat( 3, 20vw);
-           grid-template-rows: repeat(4, 16vh);
+        .main__section {
+            width: inherit;
+            height: 70.5vh;
+            width: 75vw;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat( 3, 25vw);
+            grid-template-rows: repeat(4, 13vh);
 
-           .main__article-first-child {
-               padding: 1vh;
-               width: 20vw;
-               display: grid;
-               grid-template-areas: "s s"
+            .main__article-first-child {
+                display: grid;
+                grid-template-areas: "s s"
                                     "t p"
                                     "b b";
-
-               .main__img {
-                   grid-area: s;
-                   height: 10vh;
-                   width: 12vw;
-                   object-fit: contain;
-               }
-
-               .main__name {
-                   grid-area: t;
-               }
-
-               .main__price {
-                   grid-area: p;
-                   background-color: var(--color-icons);
-                   color: var(--color-text-price);
-               }
-
-               .main__buy {
-                   grid-area: b;
-                   background-color: var(--color-button);
-                   color: var(--text-color);
-                   font-size: 0.8rem;
-                   width: 5vw;
-                   align-self: center;
-               }
-           }
-           
-           .main__article-second-child {
-
-               grid-column-start: 2;
-               grid-column-end: 4;
-               grid-row-start: 2;
-
-               .main__article-second-child-img {
-                    height: 15vh;
-                    width: 40vw;
-                    object-fit: cover;   
-                }
-
+                grid-template-columns: repeat(2, 20vw 5vw);
             }
 
-            .main__article-third-child {
-                grid-column-start: 1;
-                grid-column-end: 3;
-                grid-row-start: 4;
-
-                .main__article-third-child-img {
-                    height: 15vh;
-                    width: 40vw;
-                    object-fit: cover; 
-               }
+            .main__img {
+                grid-area: s;
+                height: 5vh;
+                width: 12vw;
+                align-self: center;
+                justify-self: center;
             }
-        } 
+
+            .main__name {
+                grid-area: t;
+                font-size: 0.5rem;
+                align-self: center;
+                justify-self: center;
+            }
+
+            .main__price {
+                grid-area: p;
+                font-size: 0.5rem;
+                align-self: center;
+                justify-self: center;
+                background-color: var(--color-price);
+            }
+
+            .main__buy {
+                grid-area: b;
+                font-size: 0.5rem;
+                align-self: center;
+                justify-self: center;
+                background-color: var(--color-button);
+                color: var(--text-color);
+            }
+        }
+
+        .main__article-second-child {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+
+            .main__article-second-child-img {
+                height: 28vw;
+                width: 50vw;
+                object-fit: cover;
+                object-position: bottom center;
+            }
+        }
+
+        .main__article-third-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+
+            .main__article-third-child-img {
+                height: 13vh;
+                width: 50vw;
+                object-fit: cover;
+                object-position: bottom center;
+            }
+        }
     }
+    
 
 </style>

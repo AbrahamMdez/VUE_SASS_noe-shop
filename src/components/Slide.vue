@@ -22,18 +22,16 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
     .wrapper {
         width: 100vw;
-        height: 20vh;
+        height: 15vh;
         overflow: hidden;
 
         .wrapper__carrusel {
             width: inherit;
             height: inherit;
-
-            /* animation: change 20s infinite alternate; */
 
             .wrapper__img {
                 width: inherit;
@@ -41,22 +39,6 @@ export default {
                 object-fit: cover;
             }
         }
-
     }
-
-
-@keyframes change {
-    0% { margin-left: 0; }
-    20% { margin-left: 0; }
-
-    25% { margin-left: -100%; }
-    45% { margin-left: -100%; }
-
-    50% { margin-left: -200%; }
-    70% { margin-left: -200%; }
-
-    75% { margin-left: -300%; }
-    100% { margin-left: -300%; }
-}
 
 </style>

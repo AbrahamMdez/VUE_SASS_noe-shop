@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "name": "OLD SKOOL 36 DX",
+        "name": "36 DX",
         "price": "85,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "name": "COMFYCUSH SKOOL",
+        "name": "COMFYCUSH",
         "price": "75,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "name": "OLD SKOOL DE ANTE",
+        "name": "SKOOL",
         "price": "60,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "name": "OLD SKOOL DE ANTE",
+        "name": "OLD",
         "price": "65,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -34,7 +34,7 @@
     },
     {
         "id": 5,
-        "name": "OLD SKOOL PRO",
+        "name": "PRO",
         "price": "95,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -42,7 +42,7 @@
     },
     {
         "id": 6,
-        "name": "ANTI HERO OLD SKOOL",
+        "name": "HERO",
         "price": "95,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -50,7 +50,7 @@
     },
     {
         "id": 7,
-        "name": "ERA PRIMARY CHECK",
+        "name": "ERA",
         "price": "95,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -58,7 +58,7 @@
     },
     {
         "id": 8,
-        "name": "STYLE 36",
+        "name": "STYLE",
         "price": "80,00 €",
         "button_text": "Comprar",
         "button_link": "#",

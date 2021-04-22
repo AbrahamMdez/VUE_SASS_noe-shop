@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
     .footer {
         height: 10vh;
@@ -26,6 +26,7 @@ export default {
         .footer__figurecaption__img,
         .footer__description {
             height: 2vh;
+            font-size: 0.5rem;
         }
     }
 

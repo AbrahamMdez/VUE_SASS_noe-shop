@@ -33,9 +33,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .header {
-    padding: 1vh;
+        padding: 1vh;
 
     .header__nav {
         height: inherit;
@@ -46,9 +46,12 @@ export default {
         height: inherit;
         width: inherit;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
 
         .header__logo {
+            position: absolute;
+            left: 0;
+            padding-left: 1vh;
             height: 2vh;
             align-self: flex-start;
         }
@@ -56,6 +59,7 @@ export default {
         .header__icon {
             font-size: 0.7rem;
             color: var(--color-icons);
+            padding-right: 0.5vh;
         }
     }  
 }

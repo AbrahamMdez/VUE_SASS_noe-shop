@@ -41,36 +41,54 @@ export default {
 
     .main {
        height: 65vh;
+       width: 100vw;
 
        .main__h1 {
            text-align: center;
            font-size: 1rem;
+           padding: 1vh;
        }
 
        .main__section {
            display: grid;
+           height: 50vh;
            width: 75vw;
            margin: auto;
-           grid-template-columns: repeat( 3, 1fr);
+           grid-template-columns: repeat( 3, 20vw);
+           grid-template-rows: repeat(4, 16vh);
 
            .main__article-first-child {
+               padding: 1vh;
+               width: 20vw;
+               display: grid;
+               grid-template-areas: "s s"
+                                    "t p"
+                                    "b b";
 
                .main__img {
-                
+                   grid-area: s;
+                   height: 10vh;
+                   width: 12vw;
+                   object-fit: contain;
                }
 
                .main__name {
-
+                   grid-area: t;
                }
 
                .main__price {
-                   
+                   grid-area: p;
+                   background-color: var(--color-icons);
+                   color: var(--color-text-price);
                }
 
                .main__buy {
-                   background-color: black;
-                   color: white;
+                   grid-area: b;
+                   background-color: var(--color-button);
+                   color: var(--text-color);
                    font-size: 0.8rem;
+                   width: 5vw;
+                   align-self: center;
                }
            }
            
@@ -82,7 +100,8 @@ export default {
 
                .main__article-second-child-img {
                     height: 15vh;
-                    width: 25vw;
+                    width: 40vw;
+                    object-fit: cover;   
                 }
 
             }
@@ -94,7 +113,8 @@ export default {
 
                 .main__article-third-child-img {
                     height: 15vh;
-                    width: 25vw;
+                    width: 40vw;
+                    object-fit: cover; 
                }
             }
         } 

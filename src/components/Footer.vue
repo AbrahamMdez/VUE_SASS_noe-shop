@@ -5,7 +5,7 @@ import Footer from '@/components/Footer.vue';
             <img class="footer__figurecaption__img" src="../assets/logo.png" alt="Neoshop" title="Neoshop" />
         </figurecaption>
         
-        <p>Prueba técnica para candidatos</p>
+        <p class="footer__description">Prueba técnica para candidatos</p>
     </footer>
 </template>
 
@@ -22,6 +22,11 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .footer__figurecaption__img,
+        .footer__description {
+            height: 2vh;
+        }
     }
 
 </style>

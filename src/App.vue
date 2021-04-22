@@ -18,9 +18,11 @@
   :root {
     --primary-color: #C1545A;
     --secondary-color: #F6F6F6;
-    --color-icons: #C1545A;
-    --input-color: #E3E3E3;
-    --color-button: #DFBFC0;
+    --color-icons: #ebb60b;
+    --color-price: #ebb60b;
+    --color-text-price: #252525;
+    --text-color: #c9c9c9;
+    --color-button: #252525;
     --font-family: 'Redressed', cursive;
   }
 </style>

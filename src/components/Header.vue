@@ -55,7 +55,7 @@ export default {
 
         .header__icon {
             font-size: 0.7rem;
-            color: orange;
+            color: var(--color-icons);
         }
     }  
 }

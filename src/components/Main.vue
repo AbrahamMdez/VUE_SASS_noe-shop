@@ -40,7 +40,7 @@ export default {
 <style lang="scss" scoped>
 
     .main {
-        height: 75vh;
+        height: 70vh;
         width: 100vw;
 
         .main__h1 {

@@ -1,0 +1,32 @@
+[
+    
+    {
+        "id": 1,
+        "title": "Título para la primera slide",
+        "button_text": "Comprar",
+        "button_link": "#",
+        "bg_image": "https://www.futboltotal.com.mx/wp-content/uploads/2020/07/vans-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Título para la segunda slide",
+        "button_text": "Comprar",
+        "button_link": "#",
+        "bg_image": "https://gmedia.playstation.com/is/image/SIEPDC/tony-hawks-pro-skater-1-2-screen-13-ps4-en-08jul20?$native$"
+    },
+    {
+        "id": 3,
+        "title": "Título para la tercera slide",
+        "button_text": "Comprar",
+        "button_link": "#",
+        "bg_image": "https://i.ytimg.com/vi/KtxpjifbDHQ/maxresdefault.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Título para la cuarta slide",
+        "button_text": "Comprar",
+        "button_link": "#",
+        "bg_image": "https://www.academy.com/content/dam/academysports/promotional-assets/2019/brands/vans/vans_hero_updated.jpg"
+    }
+]
+

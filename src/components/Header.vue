@@ -59,7 +59,7 @@ export default {
         .header__icon {
             font-size: 0.7rem;
             color: var(--color-icons);
-            padding-right: 0.5vh;
+            padding-right: 2vh;
         }
     }  
 }

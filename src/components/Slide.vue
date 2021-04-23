@@ -1,9 +1,12 @@
 <template>
+    <!-- ESTA ES LA FORMA ITERANDO EL JSON -->
+
     <!-- <section class="wrapper">
         <carrusel-slide class="wrapper__carrusel" v-for="slide in items" :key="slide.id" >
             <img class="wrapper__img" :src="slide.bg_image" :alt="slide.title">
         </carrusel-slide>
     </section> -->
+
     <section class="slider">
         <ul class="slider__container">
             <li class="slider__component">
@@ -44,6 +47,7 @@ export default {
 
 <style lang="scss">
 
+    /* LAS CLASES DE EJEMPLO ITERANDO EL JSON */
     /* .wrapper {
         width: 100vw;
         height: 15vh;

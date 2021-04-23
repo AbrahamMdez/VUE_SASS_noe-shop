@@ -47,6 +47,7 @@ export default {
             text-align: center;
             font-size: 1rem;
             padding: 1vh;
+            font-family: var(--font-family);
         }
 
         .main__section {
@@ -63,7 +64,7 @@ export default {
                 grid-template-areas: "s s"
                                     "t p"
                                     "b b";
-                grid-template-columns: repeat(2, 20vw 5vw);
+                grid-template-columns: repeat(2, 15vw 10vw);
             }
 
             .main__img {
@@ -72,6 +73,8 @@ export default {
                 width: 12vw;
                 align-self: center;
                 justify-self: center;
+                object-fit: cover;
+                object-position: bottom center;
             }
 
             .main__name {
@@ -79,6 +82,7 @@ export default {
                 font-size: 0.5rem;
                 align-self: center;
                 justify-self: center;
+                font-family: var(--font-family);
             }
 
             .main__price {
@@ -87,6 +91,7 @@ export default {
                 align-self: center;
                 justify-self: center;
                 background-color: var(--color-price);
+                font-family: var(--font-family);
             }
 
             .main__buy {
@@ -96,6 +101,7 @@ export default {
                 justify-self: center;
                 background-color: var(--color-button);
                 color: var(--text-color);
+                font-family: var(--font-family);
             }
         }
 
@@ -105,7 +111,7 @@ export default {
             grid-row-start: 2;
 
             .main__article-second-child-img {
-                height: 28vw;
+                height: 13vh;
                 width: 50vw;
                 object-fit: cover;
                 object-position: bottom center;

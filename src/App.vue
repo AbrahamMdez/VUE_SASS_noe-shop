@@ -7,6 +7,9 @@
 </template>
 
 <style lang="scss">
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
   * {
     margin: 0;
     padding: 0; 
@@ -23,6 +26,6 @@
     --color-text-price: #252525;
     --text-color: #c9c9c9;
     --color-button: #252525;
-    --font-family: 'Redressed', cursive;
+    --font-family: 'Roboto', sans-serif;
   }
 </style>

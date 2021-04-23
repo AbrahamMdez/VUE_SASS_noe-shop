@@ -18,6 +18,8 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+SOLO ESTA LA VERSION MOVIL, MOBILE FIRST.
+
 Cumplí con lo acordado, he dedicado unas 9 horas en total al proyecto, he tenido varios problemas al principio, pero en poco tiempo ya comencé a trabajar.
 Prefiero mostrarte como habiamos acordado, lo que puedo ahora mismo ofrecerte en 9 horas de trabajo, para que puedas ver mucho mejor el nivel. 
 Me centré en poder entregarte algo decente y solo funciona la parte movil, use medidas relativas en lugar de media querys.

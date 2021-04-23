@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer.vue';
 <template>
     <footer class="footer">
         <figurecaption class="footer__figurecaption">

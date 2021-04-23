@@ -92,6 +92,7 @@ export default {
                 justify-self: center;
                 background-color: var(--color-price);
                 font-family: var(--font-family);
+                transform: rotate(-45deg);
             }
 
             .main__buy {

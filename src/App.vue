@@ -19,8 +19,6 @@
   }
 
   :root {
-    --primary-color: #C1545A;
-    --secondary-color: #F6F6F6;
     --color-icons: #ebb60b;
     --color-price: #ebb60b;
     --color-text-price: #252525;

@@ -24,6 +24,10 @@ Me centré en poder entregarte algo decente y solo funciona la parte movil, use 
 Normalmente en mi dia a dia uso los selectores a la hora de realizar stilos css, pero leí vuestra documentación y usé la metodología BEM.
 También use SASS como procesador en Vue.
 
+No fuí capaz a hacer funcionar el slide, estuve intentado cambiar el sistema ahora en la mañana, pero tengo algun tipo de error, seguiré intentadolo en estos dias,
+no obstante dejo ambas formas que estoy utilizando, la forma de iterar el JSON la dejo comentada para que podais ver como lo hice y dejo funcionando la forma solo con 
+CSS.
+
 1. Elegí Vue como framework.
 2. Aproveché los JSON, como podrás ver en el componente de Slide y componente Main, en ambos itero los JSON e imprimo la data,
    tuve un problema con las imagenes, lo que hice fué buscar imagenes similares por la web y las metí en los JSON.

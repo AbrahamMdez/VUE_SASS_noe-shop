@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "name": "36 DX",
+        "name": "36 DX SKOOL",
         "price": "85,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "name": "SKOOL",
+        "name": "SKOOL VANS",
         "price": "60,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "name": "OLD",
+        "name": "OLD PINK VANS",
         "price": "65,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -34,7 +34,7 @@
     },
     {
         "id": 5,
-        "name": "PRO",
+        "name": "PRO BLUE HERO",
         "price": "95,00 €",
         "button_text": "Comprar",
         "button_link": "#",
@@ -50,7 +50,7 @@
     },
     {
         "id": 7,
-        "name": "ERA",
+        "name": "ERA RED",
         "price": "95,00 €",
         "button_text": "Comprar",
         "button_link": "#",

@@ -4,7 +4,7 @@
 
         <section class="main__section">
             <article v-for="product in items" :key="product.id" class="main__article-first-child">
-                <img :src="product.image" :alt="hola" class="main__img">
+                <img :src="product.image" :alt="product.title" class="main__img">
                 <h5 class="main__name">{{product.name}}</h5>
                 <p class="main__price">{{product.price}}</p>
                 <a class="main__buy" :href="product.button_link">{{product.button_text}}</a>

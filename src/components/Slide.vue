@@ -2,9 +2,9 @@
     <!-- ESTA ES LA FORMA ITERANDO EL JSON -->
 
     <section class="wrapper">
-        <carrusel-slide class="wrapper__carrusel" v-for="slide in items" :key="slide.id" >
+        <article class="wrapper__carrusel" v-for="slide in items" :key="slide.id" >
             <img class="wrapper__img" :src="slide.bg_image" :alt="slide.title">
-        </carrusel-slide>
+        </article>
     </section>
 
     <!-- <section class="slide">

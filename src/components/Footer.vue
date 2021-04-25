@@ -1,8 +1,8 @@
 <template>
     <footer class="footer">
-        <figurecaption class="footer__figurecaption">
+        <figcaption class="footer__figurecaption">
             <img class="footer__figurecaption__img" src="../assets/logo.png" alt="Neoshop" title="Neoshop" />
-        </figurecaption>
+        </figcaption>
         
         <p class="footer__description">Prueba técnica para candidatos</p>
     </footer>

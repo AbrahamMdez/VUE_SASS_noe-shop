@@ -1,29 +1,26 @@
 <template>
     <header class="header">
-        <nav class="header__nav">
+        <ul class="header__list">
+            <li>
+                <figcaption class="header__figcaption">
+                    <router-link to="/">
+                        <img class="header__logo" src="../assets/logo.png" alt="Logotipo de Neoshop" title="Neoshop" />
+                    </router-link>
+                </figcaption>
+            </li>
 
-            <ul class="header__ul">
-                <li>
-                    <figcaption class="header__figcaption">
-                        <router-link to="/">
-                            <img class="header__logo" src="../assets/logo.png" alt="Logotipo de Neoshop" title="Neoshop" />
-                        </router-link>
-                    </figcaption>
-                </li>
+            <li>
+                <i class="fas fa-shopping-cart header__icon"></i>
+            </li>
 
-                <li>
-                    <span class="header__icon"><i class="fas fa-shopping-cart"></i></span>
-                </li>
+            <li>
+                <i class="fas fa-user header__icon"></i>
+            </li>
 
-                <li>
-                    <span class="header__icon"><i class="fas fa-user"></i></span>
-                </li>
-
-                <li>
-                    <span class="header__icon"><i class="fas fa-box-open"></i></span>
-                </li>
-            </ul>
-        </nav>
+            <li>
+                <i class="fas fa-box-open header__icon"></i>
+            </li>
+        </ul>
     </header>
 </template>
 
@@ -37,12 +34,7 @@ export default {
     .header {
         padding: 1vh;
 
-    .header__nav {
-        height: inherit;
-        width: inherit;
-    }
-
-    .header__ul {
+    .header__list {
         height: inherit;
         width: inherit;
         display: flex;

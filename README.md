@@ -20,9 +20,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 SOLO ESTA LA VERSION MOVIL, MOBILE FIRST.
 
-Cumplí con lo acordado, he dedicado unas 9 horas en total al proyecto, he tenido varios problemas al principio, pero en poco tiempo ya comencé a trabajar.
-Prefiero mostrarte como habiamos acordado, lo que puedo ahora mismo ofrecerte en 9 horas de trabajo, para que puedas ver mucho mejor el nivel. 
-Me centré en poder entregarte algo decente y solo funciona la parte movil, use medidas relativas en lugar de media querys.
+Use medidas relativas en lugar de media querys.
 Normalmente en mi dia a dia uso los selectores a la hora de realizar stilos css, pero leí vuestra documentación y usé la metodología BEM.
 También use SASS como procesador en Vue.
 
@@ -37,5 +35,5 @@ CSS.
    para ubicar tanto la imagen del articulo, precio, boton de compra...
 4. Todo son componentes, tanto el Footer, como el Header, Slide...reutilizables.
 
-Espero os guste, le he puesto mucha energía, creo que es muy mejorable el responsive, pero creo que la parte funcional, está bastante bien,
+Espero os guste, creo que es muy mejorable el responsive, pero creo que la parte funcional, está bastante bien,
 cualquier cosa, no dudes en escribirme.
